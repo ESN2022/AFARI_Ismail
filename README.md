@@ -65,7 +65,7 @@ Ensuite j'ai essayé de lire les entrés des switchs afin de pouvoir comprendre 
 On remodifie le code en fonction de ces résultats et on obtient à la fin de ce TP un chenillard sur notre carte avec une vitesse variable et controlable par des switchs.
 
 
-## 4-Résultat :
+# C-Résultat :
 
 Sans control de vitesse:
 
