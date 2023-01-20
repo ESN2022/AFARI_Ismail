@@ -17,18 +17,22 @@ Dans un premier lieu on va allumer une seule led. Pour ceci on va constuire l'ar
 Après le mapping on configure nos composants afin d'avoir la bonne taille du PIO, la bonne taille de la memoire et la bonne version de Nios2 à savoir la version économique.
 
 Ensuite on assigne les adresses d'une facon automatique afin de ne pas avoir des chevauchement:
+
 ![image](https://user-images.githubusercontent.com/121948245/213646063-d42b21c0-3cab-43db-bbef-4a9d330c2618.png)
 
 L'étape suivante est de générer le VHDL.
 Après la generation du VHDL, on code notre Top Entity en VHDL afin de pouvoir instancier les E/S.
 
 Ensuite on assigne les LEDs et la clock physiquement aux pins de notre FPGA. Pour cela on utilise "Pin Planner".
+
 ![image](https://user-images.githubusercontent.com/121948245/213647231-c9ee9e74-f9ec-4e9a-82c0-6e6e2a56affe.png)
 
 La prochaine étape consiste à compiler notre Top level Entity 
+
 ![image](https://user-images.githubusercontent.com/121948245/213647466-fb0d6cf8-de78-4028-b4e2-eb777f1849a9.png)
 
 Une fois cette étape est faite on peut flasher notre carte:
+
 ![image](https://user-images.githubusercontent.com/121948245/213647780-6e4a3218-20d2-4b5c-942c-3cae69646d65.png)
 
 On genere le bsp, on écrit notre code C et fait notre Make et enfin on compile notre programme (Ces étapes seront détaillées dans la prochaine partie)
