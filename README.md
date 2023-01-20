@@ -8,5 +8,5 @@ Dans ce TP, nous allons utiliser la carte DE10-Lite et le système Nios2 pour cr
 
 # B-Architechture :
 
-# # 1-Allumer une seule Led :
+## 1-Allumer une seule Led :
 
